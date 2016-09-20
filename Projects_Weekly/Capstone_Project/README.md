@@ -12,7 +12,7 @@
 
 **Note: The jupyter notebooks in this repo do not display resulting data that involve any kind of unique identification information. Instead, steps are described in notebook cells as markdown (as opposed to running cells and displaying results).
 
-## ---- Approach --------------------------- 
+## Approach ----------------------------- 
 
 1) Data Cleaning and Munging
     
@@ -20,11 +20,9 @@
     
     - In this notebook:
         
-        - Raw data reviewed, described, and cleaned. /n
+        - Raw data reviewed, described, and cleaned.
         - Data wrangled into 3 data sets for analysis and saved in local postgres database and as CSV files.
-        
         - 3 Data sets: Cohort1_Baseline_W1, Cohort1_W2, Cohort2_Baseline_W1
-        
         * Please Note: In order to address data quality issue, 3 data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
 
