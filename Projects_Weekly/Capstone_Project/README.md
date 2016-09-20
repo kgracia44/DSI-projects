@@ -7,23 +7,30 @@
 
 ##### Raw Data Source:
 
-<img src="files/imgs_for_readme/sources.png">
+<img src="imgs_for_readme/sources.png">
 
 
-**Note: The jupyter notebooks in this repo do not display resulting data that involve any kind of unique identification information. Instead, steps are described in notebook cells as markdown (as opposed to running cell and displaying results).
+**Note: The jupyter notebooks in this repo do not display resulting data that involve any kind of unique identification information. Instead, steps are described in notebook cells as markdown (as opposed to running cells and displaying results).
 
 ## ---- Approach --------------------------- 
 
 1) Data Cleaning and Munging
-    - Jupyter Notebook: CleanData_Munge_3_DataSets
+    
+    - Jupyter Notebook: CleanData_MungeData_3Sets
+    
     - In this notebook:
-        - Raw data reviewed, described, and cleaned. 
+        
+        - Raw data reviewed, described, and cleaned. /n
         - Data wrangled into 3 data sets for analysis and saved in local postgres database and as CSV files.
+        
         - 3 Data sets: Cohort1_Baseline_W1, Cohort1_W2, Cohort2_Baseline_W1
+        
         * Please Note: In order to address data quality issue, 3 data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
 
 2) Exploratory Data Analysis (EDA)
+    
     - Jupyter notebook: 
+    
     - In this notebook:
         - Words
