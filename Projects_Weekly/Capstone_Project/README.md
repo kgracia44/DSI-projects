@@ -3,7 +3,7 @@
 
 ## Project: Factors That Impact Educational Attainment Among Foster Youth
 
-#### This repo folder contains the jupyter notebooks that document the steps and rationale for the project analysis. This repo does not contain project details such as problem statement, background information, project aims, etc. For these project details and an overview of my methodology, visit my capstone project blog post: https://kgracia44.github.io/capstone_post/
+This repo folder contains the jupyter notebooks that document the steps and rationale for the project analysis. This repo does not contain project details such as problem statement, background information, project aims, etc. For these project details and an overview of my methodology, visit my capstone project blog post: https://kgracia44.github.io/capstone_post/
 
 ##### Raw Data Source:
 
@@ -21,8 +21,9 @@
     - In this notebook:
         
         - Raw data reviewed, described, and cleaned.
-        - Data wrangled into 3 data sets for analysis and saved in local postgres database and as CSV files.
-        - 3 Data sets: Cohort1_Baseline_W1, Cohort1_W2, Cohort2_Baseline_W1
+        - Data wrangled into 3 data sets for analysis and saved in local postgreSQL database and as CSV files.
+        - 3 Data sets: Cohort1_Baseline, Cohort1_W2, Cohort2_Baseline
+        
         * Please Note: In order to address data quality issue, 3 data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
 
