@@ -14,11 +14,11 @@ This repo folder contains the jupyter notebooks that document the steps and rati
 
 
 
-## Approach ----------------------------- 
+## Approach and Table of Contents----------------------------- 
 
-1) Data Cleaning and Munging
+1) Data: Folder with 2 jupyter notebooks and data dictionary csv file
     
-    - Jupyter Notebook: CleanData_MungeData_3Sets
+    - Jupyter Notebook 1: CleanData_MungeData_3Sets
     
     - In this notebook:
         
@@ -29,6 +29,15 @@ This repo folder contains the jupyter notebooks that document the steps and rati
         
         * Please Note: In order to address data quality issue, data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
+____________________________________________________
+    - Jupyter Notebook 2: DataDict_Risks_and_Assumps
+    
+    - In this notebook:
+        
+        - Data Dictionary (csv file is provided in this folder as well)
+        - Risks and Assumptions of Data 
+____________________________________________________    
+    - Data Dictionary csv file
 
 2) Exploratory Data Analysis (EDA)
     
