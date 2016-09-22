@@ -24,7 +24,8 @@ This repo folder contains the jupyter notebooks that document the steps and rati
         
         - Raw data reviewed, described, and cleaned.
         - Data wrangled into 4 data sets for analysis and saved in local postgreSQL database and as CSV files.
-        - 4 Data sets: Cohort 1 Baseline Population, Cohort 1 Baseline Pop excluding 7 states*, Cohort 1 Wave 2 Population, and Cohort 2 Baseline Population
+        - 4 Data sets: Cohort 1 Baseline Population, Cohort 1 Baseline Pop excluding 7 states*, Cohort 1 Wave 2 Population, 
+        and Cohort 2 Baseline Population
         
         * Please Note: In order to address data quality issue, data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
