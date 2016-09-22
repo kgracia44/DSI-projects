@@ -3,14 +3,16 @@
 
 ## Project: Factors That Impact Educational Attainment Among Foster Youth
 
-This repo folder contains the jupyter notebooks that document the steps and rationale for the project analysis. This repo does not contain project details such as problem statement, background information, project aims, etc. For these project details and an overview of my methodology, visit my capstone project blog post: https://kgracia44.github.io/capstone_post/
+This repo folder contains the jupyter notebooks that document the steps and rationale for the project analysis. These notebooks contain the python code I used to complete my capstone project. For a high-level summary (an overview without code) of project background, aims, methodology, results and conclusions, please visit my capstone project blog post: https://kgracia44.github.io/capstone_post/
 
 ##### Raw Data Source:
 
 <img src="imgs_for_readme/sources.png">
 
 
-**Note: The jupyter notebooks in this repo do not display resulting data that involve any kind of unique identification information. Instead, steps are described in notebook cells as markdown (as opposed to running cells and displaying results).
+**Note: In order to uphold confidentiality standards, no identifying data is ever displayed. 
+
+
 
 ## Approach ----------------------------- 
 
@@ -21,10 +23,10 @@ This repo folder contains the jupyter notebooks that document the steps and rati
     - In this notebook:
         
         - Raw data reviewed, described, and cleaned.
-        - Data wrangled into 3 data sets for analysis and saved in local postgreSQL database and as CSV files.
-        - 3 Data sets: Cohort1_Baseline, Cohort1_W2, Cohort2_Baseline
+        - Data wrangled into 4 data sets for analysis and saved in local postgreSQL database and as CSV files.
+        - 4 Data sets: Cohort 1 Baseline Population, Cohort 1 Baseline Pop excluding 7 states*, Cohort 1 Wave 2 Population, and Cohort 2 Baseline Population
         
-        * Please Note: In order to address data quality issue, 3 data sets used for analysis exclude data from the following   
+        * Please Note: In order to address data quality issue, data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
 
 2) Exploratory Data Analysis (EDA)
