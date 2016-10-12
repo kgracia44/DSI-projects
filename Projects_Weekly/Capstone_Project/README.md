@@ -18,7 +18,7 @@ This repo folder contains the jupyter notebooks that document the steps and rati
 
 1) Data: Folder with 2 jupyter notebooks and data dictionary csv file
     
-    - Jupyter Notebook 1: CleanData_MungeData_4Sets
+    Jupyter Notebook 1: CleanData_MungeData_4Sets
     
     - In this notebook:
         
@@ -29,19 +29,37 @@ This repo folder contains the jupyter notebooks that document the steps and rati
         
         * Please Note: In order to address data quality issue, data sets used for analysis exclude data from the following   
         states: HI, IN, KY, MS, OR, TX, TN.
-____________________________________________________
-    - Jupyter Notebook 2: DataDict_Risks_and_Assumps
+        
+    --
+    
+    Jupyter Notebook 2: DataDict_Risks_and_Assumps
     
     - In this notebook:
         
         - Data Dictionary (csv file is provided in this folder as well)
         - Risks and Assumptions of Data 
 ____________________________________________________    
-    - Data Dictionary csv file
 
-2) Exploratory Data Analysis (EDA)
+
+2) EDA: Folder with 1 jupyter notebook and 3 csv files
+    
+    - Jupyter notebook: EDA_cohort1_sample
+    
+    - In this notebook:
+        
+        - Exploratory Data Analysis of cohort 1 sample
+        - Univariate and Bivariate Analysis of Demographics, Features, and Targets
+        - 3 Data sets: cohort1_demographics_all.csv, cohort1_features_all.csv, cohort1_targets_all.csv
+        
+____________________________________________________    
+
+
+3) HypothesisTesting: Folder with  jupyter notebook and csv file
     
     - Jupyter notebook: 
     
     - In this notebook:
-        - Words
+        
+        - Exploratory Data Analysis of cohort 1 sample
+        - Univariate and Bivariate Analysis of Demographics, Features, and Targets
+        - 3 Data sets: cohort1_demographics_all.csv, cohort1_features_all.csv, cohort1_targets_all.csv
