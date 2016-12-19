@@ -41,7 +41,7 @@ This repo folder contains the jupyter notebooks that document the steps and rati
 ____________________________________________________    
 
 
-2) EDA: Folder with 1 jupyter notebook and 3 csv files
+2) EDA_and_HypothesisTesting: Folder with 1 jupyter notebook and 3 csv files
     
     - Jupyter notebook: EDA_cohort1_sample
     
@@ -49,17 +49,29 @@ ____________________________________________________
         
         - Exploratory Data Analysis of cohort 1 sample
         - Univariate and Bivariate Analysis of Demographics, Features, and Targets
+        - Hypothesis Testing: Chi Squared Test of Association
         - 3 Data sets: cohort1_demographics_all.csv, cohort1_features_all.csv, cohort1_targets_all.csv
         
 ____________________________________________________    
 
 
-3) HypothesisTesting: Folder with  jupyter notebook and csv file
+3) capstone_part3: Folder with several jupyter notebooks
     
-    - Jupyter notebook: 
+    - Jupyter notebook: several
     
-    - In this notebook:
+    - In these notebooks:
         
-        - Exploratory Data Analysis of cohort 1 sample
-        - Univariate and Bivariate Analysis of Demographics, Features, and Targets
-        - 3 Data sets: cohort1_demographics_all.csv, cohort1_features_all.csv, cohort1_targets_all.csv
+        - Unsupervised Machine Learning techniques (PCA Analysis) to determine best target variable
+        
+____________________________________________________    
+
+
+4) capstone_part4: Folder with several jupyter notebooks
+    
+    - Jupyter notebook: several
+    
+    - In these notebooks:
+        
+    - Supervised Machine Learning techniques (to build various models including logistic regression and tree-based models) in 
+      order to determine if there are any particular services, and if so what are they, that lead to higher educational 
+      attainment.
